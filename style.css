@@ -1,5 +1,106 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: antiquewhite;
+    background-color: white;
+
+}
+
+.title {
+    color: black;
+    margin-left: 300px;
+    margin-top: 300px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.author {
+    color: black;
+    margin-left: 550px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+
+}
+
+.poem {
+    margin-left: 300px;
+    margin-top: 400px;
+    width: 40vw;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, black, #5F5F5F);
+}
+
+.orange {
+    color: white;
+    margin-top: 50px;
+    border-top: #FF7F46 20px solid; 
+    width: 300px;
+    margin-left: 50px;
+}
+
+.yellow {
+    color: white;
+    margin-top: 100px;
+    border-top: #FFBF46 20px solid; 
+    width: 300px;
+    margin-left: 50px;
+}
+
+.green {
+    color: white;
+    margin-top: 100px;
+    border-top: #95C671 20px solid; 
+    width: 300px;
+    margin-left: 50px;
+}
+
+.blue {
+    color: white;
+    margin-top: 100px;
+    border-top: #41B5CB 20px solid; 
+    width: 300px;
+    margin-left: 50px;
+}
+
+.indigo {
+    color: white;
+    margin-top: 100px;
+    border-top: #1F3E90 20px solid; 
+    width: 300px;
+    margin-left: 50px;
+}
+
+.violet {
+    color: white;
+    margin-top: 100px;
+    border-top: #7149CB 20px solid; 
+    width: 300px;
+    margin-left: 50px;
+}
+
+.red {
+    color: white;
+    margin-top: 100px;
+    border-top: #D02539 20px solid; 
+    width: 300px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+/*ipad*/
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    body {
+        background-color: aquamarine;
+    }
+}
+
+  /*iphone*/
+@media screen and (max-width: 767px) {
+    body {
+        background-color: tomato;
+    }
 }

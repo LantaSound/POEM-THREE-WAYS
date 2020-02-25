@@ -1,33 +1,13 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: white;
-
+    background-image: linear-gradient(to right, rgb(189, 203, 206), rgb(255, 255, 255));
+    font-family: 'Raleway', ;
+    font-family: 'Poppins', ;
 }
 
-.title {
-    color: black;
-    margin-left: 300px;
-    margin-top: 300px;
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-}
-
-.author {
-    color: black;
-    margin-left: 550px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-
-}
-
-.poem {
-    margin-left: 300px;
-    margin-top: 400px;
-    width: 40vw;
-    padding-top: 5px;
-    padding-bottom: 50px;
-    background-image: linear-gradient(to right, black, #5F5F5F);
+h1 {
+    font-size: 16px;
 }
 
 .orange {
@@ -41,7 +21,7 @@ body {
 .yellow {
     color: white;
     margin-top: 100px;
-    border-top: #FFBF46 20px solid; 
+    border-top: #FFBF46 20px solid;
     width: 300px;
     margin-left: 50px;
 }
@@ -87,6 +67,38 @@ body {
 }
 
 
+/*desktop*/
+@media screen and (min-width: 1025px) {
+    body {
+        background-color: white;
+    }
+    .poem {
+        margin-left: 20vw;
+        margin-top: 400px;
+        width: 40vw;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        background-image: linear-gradient(to right, black, rgb(64, 63, 75));
+        box-shadow: rgb(119, 125, 134) 5px 5px 50px;
+    }
+    .title {
+        color: black;
+        margin-left: 20vw;
+        margin-top: 300px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-size: 3em;
+        text-shadow: rgb(194, 194, 194) 5px 5px 7px;
+    }
+    
+    .author {
+        color: black;
+        margin-left: 35vw;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        text-shadow: rgb(194, 194, 194) 5px 5px 7px;
+    }
+}
 
 
 
@@ -94,13 +106,65 @@ body {
 /*ipad*/
 @media screen and (max-width: 1024px) and (min-width: 768px) {
     body {
-        background-color: aquamarine;
+        background-color: white;
+    }
+    .poem {
+        margin-left: 15vw;
+        margin-top: 400px;
+        width: 60vw;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        background-image: linear-gradient(to right, black, rgb(64, 63, 75));
+        box-shadow: rgb(47, 47, 51) 5px 5px 50px;
+    }
+    .title {
+        color: black;
+        margin-left: 18vw;
+        margin-top: 300px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-size: 2em;
+        text-shadow: rgb(194, 194, 194) 5px 5px 7px;
+    }
+    
+    .author {
+        color: black;
+        margin-left: 35vw;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        text-shadow: rgb(194, 194, 194) 5px 5px 7px;
     }
 }
 
   /*iphone*/
 @media screen and (max-width: 767px) {
     body {
-        background-color: tomato;
+        background-color: white;
+    }
+    .poem {
+        margin-left: 10vw;
+        margin-top: 400px;
+        width: 80vw;
+        padding-top: 5px;
+        padding-bottom: 50px;
+        background-image: linear-gradient(to right, black, rgb(64, 63, 75));
+        box-shadow: rgb(47, 47, 51) 5px 5px 50px;
+    }
+    .title {
+        color: black;
+        margin-left: 15vw;
+        margin-top: 300px;
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-size: 2em;
+        text-shadow: rgb(194, 194, 194) 5px 5px 7px;
+    }
+    
+    .author {
+        color: black;
+        margin-left: 25vw;
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        text-shadow: rgb(194, 194, 194) 5px 5px 7px;
     }
 }
